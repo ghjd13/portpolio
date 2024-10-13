@@ -1,0 +1,85 @@
+.last{
+    background-color: var(--color--background);
+    width: 100vw;
+    padding: 100px 0px;
+    display: flex;
+    justify-content:center;
+}
+.last >.contents{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.last>.contents>.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 75px;
+    gap: 15px;
+    align-items: center;
+    font-size: var(--font-size--large);
+    font-family: 'ONE-Mobile-POP';
+    color: var(--color--text);
+    font-weight: bold;
+}
+
+.last>.contents>.desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 35px;
+
+    gap: 15px;
+    align-items: center;
+    font-size: var(--font-size--middle);
+    font-family: 'ONE-Mobile-POP';
+    color: var(--color--text);
+    font-weight: bold;
+}
+
+
+.download{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 16px 11px 14px;
+    gap: 10px;
+    border: 0px solid;
+    border-radius: 16px;
+    margin-right: 4px;
+    font-size: 24px;
+
+    cursor: pointer;
+
+    border: 2px solid var(--color--text);
+    background-color: var(--color--background);
+    color: var(--color--text);
+    font-family: 'ONE-Mobile-POP';
+}
+
+.button>.text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: var(--font-size--middle);
+}
+.button:hover{
+    background-color: rgba(2, 32, 71, 0.05);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    .last >.contents{
+        flex-direction: column;
+    }
+}

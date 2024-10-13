@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="kor">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="head.css">
+    <link rel="stylesheet" href="first.css">
+    <link rel="stylesheet" href="second.css">
+    <link rel="stylesheet" href="last.css">
+
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="image/signature.png">
+            </div>
+            <ul class="box">
+                <li>홈</li>
+                <li>누구?</li>
+                <li>취미</li>
+                <li>SNS</li>
+                <li>연락처</li>
+            </ul>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="first">
+            <div class="contents">
+                <div class="title">
+                    <h1>저는요</h1>
+                </div>
+            </div>
+        </section>
+
+        <section class="second">
+            <div class="contents">
+                <div class="title">
+                    <h1>취미</h1>
+                </div>
+                <div class="album">
+                    <img src="data:image/png;base64,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" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="last">
+            <div class="contents">
+                <div class="desc">
+                    <a>주소</a>
+                    <a>인천광역시 부평구</a>
+                </div>
+                <div class="desc">
+                    <a>경력</a>
+                    <a>한국공대 재학</a>
+                </div>
+
+                <div class="desc">
+                    <a>SNS</a>
+                    <div class="download">
+                        <button class="button">
+                            <div class="icon">
+                                <i class="fa-brands fa-facebook"></i>
+                            </div>
+                        </button>
+                        <button class="button">
+                            <i class="fa-brands fa-instagram"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="desc">
+                    <a>이메일</a>
+                    <a>ghjd13@naver.com</a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

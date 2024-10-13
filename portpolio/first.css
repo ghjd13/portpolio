@@ -1,0 +1,32 @@
+.first{
+    width: 100vw;
+    height: 100vh;
+    /*background-color: var(--color--background);*/
+    background-image: url(image/background.jpg);
+    background-size: cover;
+    z-index: -5;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.first > .contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first > .contents > .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    font-size: var(--font-size--x-large);
+    font-family: 'ONE-Mobile-POP';
+    color: #191F28;
+    font-weight: bold;
+}
